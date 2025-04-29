@@ -1,0 +1,69 @@
+[ 1/6/24 ]
+- Under the hood tweaks/refactors.
+- Fix: Edge cases with depositing cash with context sometimes not saving the money.
+- Fix: Edge cases of credit to store causing issues.
+- Fix: Windows throwing errors for thumpable protections.
+- Fix: Wallet checks throwing errors.
+[ ---- ]
+
+[ 1/12/24 ]
+- Fix issue with inactivity timer.
+- Fix edge-case exploit with depositing cash.
+[ ---- ]
+
+[ 1/26/24 ]
+- Fixed lootzed/admin refill loot right click option.
+[ ------ ]
+
+[ 1/28/24 ]
+- Fixes issues with disassemble/thump protection.
+[ ------ ]
+
+[ 3/14/24 ]
+Credit to EasyPeasyViking:
+- New Sandbox Option: Set a limit for items price
+- New Sandbox Option: Whitelist of containers that can be used as shops
+- Extra: Allow Starting Amount of Money to be set to 0 (zero)
+[ ------ ]
+
+[ 4/5/24 ]
+- Fix recipe generation for Deeds.
+[ ------ ]
+
+[ 5/18/24 ]
+- Fix loading/editing shops in SP issues.
+- Change language regarding manage mode.
+[ ------ ]
+
+[ 1/25/25 ]
+- BETA testing has not provided any reports of issues for a few weeks now.
+  Given B42 has just released, I am consolidating branches (this BETA to main), and moving forward with development.
+
+This mod is still only for B41.
+
+- New: Manage Mode Field Editor.
+-- Removed three inputs for stock/price/buyback on the UI.
+-- Fields can now be viewed/modified by owners/admin.
+-- Allows for listing items of the same type with specialized names.
+--- Example: furniture and evolved-recipes for food.
+- Lowered minimum for Money weight to 0.00.
+
+- Refactored wallet/cash transactions to occur entirely on network.
+- Allow money to be used along with store credit.
+- Fix: Loads store data when opening context menu.
+- Fix: Loads wallet data when dying.
+
+- HOTFIX: Properly handle moveables/furniture.
+- HOTFIX 2: Fix issue with moveable typings when listing + icon display.
+- HOTFIX 3: Fix issue with listing literature.
+[ ------ ]
+
+[ 2/24/25 ]
+- Fix for import UI text.
+- Fix for issues with category listings.
+- Added additional transmit of manage mode.
+- Fix for item stack split (etomarat).
+- RU translation (etomarat).
+
+- Hotfix #1: Issue with reselling stuck on true fixed.
+[ ------ ]
